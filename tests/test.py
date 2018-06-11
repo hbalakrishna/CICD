@@ -8,8 +8,6 @@ class Test(unittest.TestCase):
     self.assertEqual(int(coins.coins1(1)), 1)
     self.assertEqual(int(coins.coins1(4)), 1)
     self.assertEqual(int(coins.coins1(5)), 2)
-    self.assertEqual(int(coins.coins1(25)), 13)
-    self.assertEqual(int(coins.coins1(52)), 53)
 
 if __name__ == "__main__":
   unittest.main()
